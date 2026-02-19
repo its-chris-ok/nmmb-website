@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #003314
+    background-color: #f0e7d8;
 }
 
 h1 {
@@ -27,6 +27,7 @@ a.button {
 }
 
 img {
+    border-color: black;
     align-self: center;
 }
 
