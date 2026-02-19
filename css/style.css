@@ -1,0 +1,36 @@
+* {
+    font-family: Georgia, Garamond, serif;
+}
+
+.menu {
+    align-self: center;
+    table-layout: fixed;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+body {
+    background-color: #003314
+}
+
+h1 {
+    text-align: center;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+
+img {
+    align-self: center;
+}
+
+div.gallery-item{
+    text-align: center;
+}
+
