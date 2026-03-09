@@ -39,6 +39,12 @@ body {
     color: beige;
 }
 
+.centeredLogo img {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
 h1 {
     text-align: center;
 }
@@ -57,19 +63,20 @@ a.button {
     grid-template-rows: repeat(auto-fill, minmax(250px, 300px));
     gap: 16px;
     padding: 16px;
-    width: 100%;
+    width: auto;
     object-fit: cover;
 }
 
 .galleryFramedPhoto img {
-    border: 10px solid #FFFFFF
+    border: 10px solid #FFFFFF;
+    width: auto;
 }
 
 .galleryFramedPhoto img:hover {
     transform: scale(1.10);
 }
 
-div.gallery-item{
+div.gallery-item {
     text-align: center;
 }
 
